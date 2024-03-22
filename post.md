@@ -10,21 +10,25 @@ In this lab, we will design circuits that utilize memory in order to achieve inc
 
 This week, we will be working with Sequential Circuits. Sequential circuits introduce the idea of different states and being able to remember things about the previous input. The outputs can now be a function of both, inputs and previous internal state of the sequential circuit. In this lab, we will build a circuit that reads a binary number bit by bit and determines if that input (entire number) is divisible by 3. Each bit of the binary number will be clocked into the circuit sequentially, from the highest order bit to the lowest (left to right). As we recieve each bit, we must interpret it as this will equal to a different number than previous input/s and update our circuit's state accordingly.
 
-To successfully be able to create this circuit, we need to make ourselves fimilar with Finite State Machine Design.
+To successfully be able to create this circuit, we need to make ourselves fimilar with Finite State Machine Design. Specifically, We need to successfully complete the following activities in order:-
+
+    - Build a Finite State Machine (DFA) using a state transition diagram.
+
+    - Build a State Table according to the FSM, and the JK FFs needed to track the state.
+
+    -Design logic for the two combinational circuits, i.e. the next state and output.
+
+    - Boolean Truth Table (function table) diagram.
+
+    - After the truth table, minized K-map is needed for each output - each J, K, and out value.
+
+    - And, last but not least, we need to test this in logisim to make sure everything is working as intended before starting to work on the lab directly.
 
 ## Materials
 
--IC data sheets
-
 -PB-503 breadboard prototyping station
 
--Wires and connection tools
-
--Logic Probes
-
--Logic Switches
-
--Push Button
+-Arduino
 
 -7404 NOT gate IC
 
