@@ -45,3 +45,7 @@ To successfully be able to create this circuit, we need to make ourselves fimila
 ## Testing
 
 ## Conclusion
+
+This lab is where we learned the concept of memory and different states. In a systematic way, we learned to utilize Finite State Machine design which is very essential to form the backbone of sequential circuit implementation. We also got to apply the theoritical knowledge we learned in class about the sequential circuits like J-K Flip Flops e.t.c. and combining them with the combinational circuits in a practical scenerio. The project itself, building a circuit that reads a binary number that is inputted in a stream and determines if the input in decimal is divisible by 3, is very important and essential in a real world scenerio.
+
+By going through the whole process of completing this lab, we not only honed our theory and technical skills but also learned how to debugg/troubleshooting our problems by backtracing, problem solving step by step, working with precision etc. We also got to have a deeper understanding of sequential circuits by spending our time with this lab as a group.
